@@ -106,7 +106,7 @@ body{
 }
 .slider-info p{
     color: #E8E8E8;
-    font-size: 1em;
+    font-size: 2em;
     margin: 1em 0 0 0;
 }
 .more-button a{
@@ -398,6 +398,14 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
     letter-spacing: 3px;
     border: solid 4px #FFFFFF;
 }
+.test h4 a{
+    font-size: 36px;
+    color: #F44336;
+    text-decoration: none;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 .agileits-logo h1 a span{
 	text-transform: capitalize;
     font-weight: 300;
@@ -544,9 +552,9 @@ img.zoom-img:hover{
     border: 8px solid #E4E4E4;
 }
 .w3l-welcome-text p {
-    font-size: .9em;
+    font-size: 1.2em;
     margin: 2em 0 0 0;
-    color: #999999;
+    color: #0f0f0f;
     line-height: 1.8em;
     text-align: center;
 }
@@ -562,6 +570,24 @@ img.zoom-img:hover{
     font-weight: 600;
     letter-spacing: 4px;
     margin:1em 0 0 0;
+}
+.test1{
+    font-size: 22px;
+    margin: 2em 0 0 0;
+    color: #0f0f0f;
+    line-height: 1.8em;
+}
+.test2{
+    font-size: 16px;
+    margin: 2em 0 0 0;
+    color: #0f0f0f;
+    line-height: 1.8em;
+}
+.table table-bordered{
+    font-size: 16px;
+    margin: 2em 0 0 0;
+    color: #0f0f0f;
+    line-height: 1.8em;
 }
 .w3-about-left p {
     color: #999999;
@@ -999,9 +1025,9 @@ i.fa.fa-quote-right {
     font-size: 3em;
     color: #FFFFFF;
 }
-.testimonial-top p {
+.testimonial-top p a {
     color: #ffffff;
-    font-size: .9em;
+    font-size: 1.2em;
     line-height: 2em;
     margin: 2em auto;
     width: 81%;
@@ -1016,6 +1042,9 @@ i.fa.fa-quote-right {
 }
 .testimonial-top h5 span{
 	font-weight:300;
+}
+.testimonial-top h1 {
+    color: #ffffff;
 }
 /*-- //testimonial --*/
 /*-- contact --*/
@@ -1196,6 +1225,78 @@ button.btn1 {
 button.btn1:hover{
     background: none;
 	border: solid 1px #ffffff;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+    color: inherit;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+    color: inherit;
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel > .list-group,
+.panel > .panel-collapse > .list-group {
+    margin-bottom: 0;
+}
+.panel > .list-group .list-group-item,
+.panel > .panel-collapse > .list-group .list-group-item {
+    border-width: 1px 0;
+    border-radius: 0;
+}
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+    border-top: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+    border-bottom: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-heading + .list-group .list-group-item:first-child {
+    border-top-width: 0;
+}
+.list-group + .panel-footer {
+    border-top-width: 0;
+}
+.panel > .table,
+.panel > .table-responsive > .table,
+.panel > .panel-collapse > .table {
+    margin-bottom: 0;
 }
 /*-- //newsletter --*/
 /*-- footer --*/
@@ -1538,7 +1639,7 @@ button.btn1:hover{
 		font-size: 3em;
 	}
 	.slider-info p {
-		font-size: .9em;
+		font-size: 1.5em;
 	}
 	.header-top {
 		margin: 5em 0 0 0;
