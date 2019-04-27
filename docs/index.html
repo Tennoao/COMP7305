@@ -108,9 +108,9 @@ $(document).ready(function() {
 										<li>
 											<div class="slider-info">
 												<div class="test">
-												<h4><a>Food image recognition with Food-101 images</a></h4>
+												<h4><a>Movie Recommendation Based on Spark</a></h4>
 												</div>
-												<p >Find the food to eat today!</p>
+												<p >Find the Movie to watch today!</p>
 												<!--<div class="more-button">
 													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
 												</div>  -->
@@ -214,7 +214,7 @@ $(document).ready(function() {
 				<div class="clearfix"> </div>
 			</div>
 			<div class="w3l-welcome-text">
-				<p>This project aims to realize food image recognition in Spark. A 4GB dataset with 101 different types of food images are first retrieved from Kaggle. (Images are originally provided by www.foodspotting.com) Image recognition model are then built in Spark to recognize food from images. It is estimated that Convolutional Neural Network or deep learning algorithms will be applied in this project.</p>
+				<p>It is provided a movie recommendation system comprising a log holding unit a movie information input unit including a movie basic information input unit and a movie extended information input unit, and a recommendation calculation unit including a simple recommendation calculation unit and an extended recommendation calculation unit. The movie recommendation system compares the number of the operation logs held in the log holding unit and a predetermined value, calculates the recommendation movies by the simple recommendation calculation unit in a case where it is determined that a small number of operation logs are held in the log holding unit, and calculates the recommendation movies by the extended recommendation calculation unit in a case where it is determined that a large number of operation logs are held in the log holding unit.</p>
 			</div>
 		</div>
 	</div>
@@ -282,8 +282,8 @@ $(document).ready(function() {
 		</div>
 		<div>
 			<div align="center" style="margin-top: 30px">
-				<h4><strong>link: </strong><a href="https://www.kaggle.com/kmader/food41#images.zip">Food Images (Food-101)</a></h4>
-				<div style="width: 60%;margin-top: 20px" align="left">The dataset contains a number of different subsets of the full food-101 data. The idea is to make a more exciting simple training set for image analysis than CIFAR10 or MNIST. For this reason the data includes massively downscaled versions of the images to enable quick tests. The data has been reformatted as HDF5 and specifically Keras HDF5Matrix which allows them to be easily read in. The file names indicate the contents of the file. </div>
+				<h4><strong>link: </strong><a href="http://files.grouplens.org/datasets/movielens/">MovieLens</a></h4>
+				<div style="width: 60%;margin-top: 20px" align="left">The dataset contains the information of millions of films and users, with more than hundreds of million user rating records.</div>
 			</div>
 		</div>
 	</div>
@@ -487,6 +487,7 @@ $(document).ready(function() {
 			<div class="w3-welcome-heading">
 				<h3>Meeting Records</h3>
 			</div>
+			<a href="https://docs.google.com/document/d/1fTQGgI6TUFnIenNZUevHeiJnHgBOHzUt0-L-4TD3Xnw/edit">Meeting Records</a>
 			<!--<div class="agile-news-grids">
 				<div class="agile-news-grid">
 					<div class="col-md-6 agile-news-left">
@@ -595,7 +596,7 @@ $(document).ready(function() {
 					<div class="clearfix"> </div>
 				</div> 
 			</div> -->
-			<div style="margin-top: 50px">
+			<!--<div style="margin-top: 50px">
 				<div class="col-md-6">
 				<div class="panel panel-info">
 					<div class="panel-heading">
@@ -661,8 +662,8 @@ $(document).ready(function() {
 						Turning parameters of Spark and Hadoop. Data pre-processing. All group members participated.
 					</div>
 				</div>
-			</div>  -->
 			</div>
+			</div>  -->
 
 		</div>
 	</div>
@@ -678,9 +679,8 @@ $(document).ready(function() {
 									<li>
 										<div class="testimonial-top">
 											<h1><span>Reference</span></h1>
-											<p><a href="https://blog.stratospark.com/deep-learning-applied-food-classification-deep-learning-keras.html">Food Classification with Deep Learning in Keras / Tensorflow</a></p>
-											<p><a href="https://www.vision.ee.ethz.ch/datasets_extra/food-101/">Food-101 – Mining Discriminative Components with Random Forests</a></p>
-											<p><a href="https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html">Building powerful image classification models using very little data</a></p>
+											<p><a href="https://github.com/vinothsadagopan/Movie-Recommendation-System-Using-Apache-Spark">Movie Recommendation System based on items/users.</a></p>
+											<p><a href="https://books.google.com.hk/books?hl=zh-TW&lr=&id=8Hc5DwAAQBAJ&oi=fnd&pg=PP1&dq=Kane,+F+2017,+Frank+Kane%27s+Taming+Big+Data+with+Apache+Spark+and+Python,+Packt+Publishing+Ltd,+Birmingham.+Available+from:+ProQuest+Ebook+Central.+%5B19+April+2019%5D.&ots=9J1HZbCcX9&sig=i5SB8oocDZvNnnxwEp-B_E7qxoU&redir_esc=y#v=onepage&q&f=false">Kane, F 2017, Frank Kane's Taming Big Data with Apache Spark and Python, Packt Publishing Ltd, Birmingham. Available from: ProQuest Ebook Central. [19 April 2019].</a></p>
 										</div>
 									</li>
 									<!--<li>
